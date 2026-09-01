@@ -1,0 +1,49 @@
+body{
+  background-color:rgb(198, 97, 97);
+  padding:15px;
+  color:white;
+}
+div{
+    text-align:center;
+    background-color:rgb(102, 31, 31);
+    padding:15px;
+    border-radius:25px;
+}
+li{
+  display:inline-block;
+  margin-right:15px;  
+  color:white;
+  margin-top:10px;
+}
+button{
+  margin-right:5px;
+  margin-left:10px;
+  width:50px;
+  height:25px;
+  border-radius:5px;
+  background-color:rgb(220, 76, 36);
+  color:rgb(234, 233, 235);
+  font-size:15px;
+  border:none;
+  transition:all 0.5s;
+}
+.add{
+  background-color:rgb(4, 93, 5);
+}
+input{
+  border-radius:5px;
+  height:25px;
+}
+.up{
+  background-color:rgb(4, 93, 5);
+}
+button:hover{
+  opacity:0.75;
+}
+button:active{
+  opacity:0.5;
+}
+.remove{
+  background-color:rgb(15, 26, 26);
+  width:65px;
+}
